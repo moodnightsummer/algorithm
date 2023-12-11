@@ -8,11 +8,10 @@ def calculator(number, items):
         elif(i == "#"):
             result = result - 7
 
-    return result;
+    return result
 
 
 testCase = int(input())
-result = []
 
 for i in range(testCase):
     array = list(input().split())
