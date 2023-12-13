@@ -1,14 +1,4 @@
-def prime_factorization(x):
-    factors = int()
-    i = 2
-
-    while i <= x:
-        if x % i == 0:
-            factors = i
-            x = x / i
-            print(factors)
-        else:
-            i = i + 1
-
-
-prime_factorization(int(input()))
+n=int(input())
+for i in range(2,int(n**(0.5))+2):
+    while n%i==0:print(i);n//=i
+if n!=1:print(n)
