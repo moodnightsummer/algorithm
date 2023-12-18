@@ -14,9 +14,6 @@ for x_item in x:
     if x.count(x_item) == 1:
         unique_values.append(x_item)
 
-# 결과를 저장할 변수 초기화
-unique_y_values = ''
-
 # 리스트 순회
 for y_item in y:
     # 리스트에서 한 번만 등장하는 경우 결과에 추가
