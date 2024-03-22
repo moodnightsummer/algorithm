@@ -9,6 +9,7 @@ for (let i = 0; i <= n; i++) {
     fibo[i] = fibo[i - 1] + fibo[i - 2];
   }
 }
+console.log(fibo);
 
 console.log(fibo.pop());
 
