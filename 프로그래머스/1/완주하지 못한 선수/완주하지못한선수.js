@@ -8,8 +8,6 @@ function solution(participant, completion) {
     hashed[entry] = hashed[entry] - 1;
   });
 
-  console.log(hashed);
-
   for (var key in hashed) {
     if (hashed[key] >= 1) return key;
   }
